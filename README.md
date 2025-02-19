@@ -2,7 +2,8 @@
 
 ## Project Setup
 ### Download Triton Server
-```docker run --rm -p8000:8000 -p8001:8001 -p8002:8002 \
+```
+    docker run --rm -p8000:8000 -p8001:8001 -p8002:8002 \
     -v /home/duc_huynh/Triton-Server-Inference/model_repository:/models \
     nvcr.io/nvidia/tritonserver:23.04-py3 tritonserver --model-repository=/models
 ```
