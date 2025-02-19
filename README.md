@@ -11,11 +11,14 @@
 ### Prepare Model Repository
 Create a directory `models/` and structure it as follows:
 ```
-models/
-│── my_model/
-│   ├── 1/
-│   │   ├── model.onnx  # or model.pt / model.pb
-│   ├── config.pbtxt
+model_repository
+|
++-- densenet_onnx
+    |
+    +-- config.pbtxt
+    +-- 1
+        |
+        +-- model.onnx
 ```
 
 ### Write Model Configuration (`config.pbtxt`)
@@ -101,7 +104,7 @@ I0219 13:39:47.500264 1 http_server.cc:185] Started Metrics Service at 0.0.0.0:8
 
 ```
 
-## 🔍 Inference Result
+## Inference Result
 ```
 ['11.481906:14' '11.101565:92' '8.271426:88' '7.760969:17' '7.278370:90']
 ```
