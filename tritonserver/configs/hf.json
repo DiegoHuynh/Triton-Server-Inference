@@ -1,0 +1,10 @@
+{
+  "token": "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",
+  "models": [
+    {
+      "name": "hieupth/triton.viencoder",
+      "ref": "v1",
+      "token": "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"
+    }
+  ]
+}
